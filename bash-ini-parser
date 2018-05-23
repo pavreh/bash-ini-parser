@@ -82,7 +82,7 @@ function cfg_writer {
       fun="$(declare -F $PREFIX$SECTION)"
       if [ -z "$fun" ]
       then
-         echo "section $SECTION not found" >2
+         echo "section $SECTION not found"
          exit 1
       fi
    fi
