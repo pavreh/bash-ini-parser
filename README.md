@@ -44,7 +44,7 @@ Inspect its code, reuse on your scripts
 
 To update a value
 
-    var=new_value
+    key3=new_value
     cfg_update <sec> <var>
 
 To save changes
