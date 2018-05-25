@@ -124,7 +124,7 @@ function cfg_writer {
          vars="$vars$newvar" # add name to collection
          item="${item#*;}" # remove readed line
       done
-      vars=$(echo "$vars" | sort -u) # remove duplicity
+      vars=$(echo "$vars" | sort -u) # remove duplication
       eval $f
       echo "[${f#$PREFIX}]" # output section
       for var in $vars; do
